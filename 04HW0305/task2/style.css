@@ -18,7 +18,7 @@ a {
   text-decoration: none;
   color: var(--main-color-text);
 }
-i{
+i {
   padding: 10px;
   border-radius: 50%;
 }
@@ -68,6 +68,9 @@ body {
   padding: 15px 0;
   max-width: 150px;
 }
+.header button:hover {
+  background: #f093d9;
+}
 /* --------MAIN--------- */
 .main {
   display: flex;
@@ -104,7 +107,7 @@ body {
   border-radius: 30px;
   display: flex;
   align-items: center;
-  transition: .5s;
+  transition: 0.5s;
 }
 .stores a:hover {
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
@@ -132,14 +135,9 @@ body {
   font-size: 25px;
   margin: 10px;
 }
-.instagram:hover {
-  color: #fd1d1d;
-}
-.facebook:hover{
-  color: #4e1dfd; 
-}
-.twitter:hover{
-  color: #1dabfd; 
+.other-sites i:hover {
+  border: 2px solid var(--clr);
+  color: var(--clr);
 }
 /* --------MAIN-right-block--------- */
 .right {
