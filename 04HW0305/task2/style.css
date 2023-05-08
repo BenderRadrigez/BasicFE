@@ -19,7 +19,6 @@ a {
   color: var(--main-color-text);
 }
 i{
-    
   padding: 10px;
   border-radius: 50%;
 }
@@ -125,7 +124,7 @@ body {
   flex: 0.1;
 }
 .other-sites {
-    height: 100px;
+  height: 100px;
   margin: 50px 0;
 }
 .other-sites i {
@@ -137,10 +136,10 @@ body {
   color: #fd1d1d;
 }
 .facebook:hover{
-    color: #4e1dfd; 
+  color: #4e1dfd; 
 }
 .twitter:hover{
-    color: #1dabfd; 
+  color: #1dabfd; 
 }
 /* --------MAIN-right-block--------- */
 .right {
