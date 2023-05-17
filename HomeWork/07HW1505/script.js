@@ -13,7 +13,7 @@ function summator_positive_elements(someArray){
 // функция которая получает один аргумент (массив целых чисел)
 // возвращает наибольшее число из массива.
 function max_number(someArray){
-    number = 0;
+    let number = 0;
     for(let i = 0; i < someArray.length; i++){
         if (someArray[i] > number) {
             number = someArray[i];
